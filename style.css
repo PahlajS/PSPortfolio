@@ -1,0 +1,311 @@
+body {
+    background-color: black;
+  } 
+
+.logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+}
+
+
+  .intro p span:hover{
+    color: steelblue;
+    font-size: 25px;
+  }
+
+  .intro{
+    font-size: 20px;
+    font-family: 'Merriweather';
+    color: white;
+    position: relative;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+  .name p span:hover{
+    color: steelblue;
+    font-size: 57px;
+  }
+
+  .name{
+    font-size: 50px;
+    font-family: 'Merriweather';
+    color: white;
+    position: relative;
+    margin: 5px;
+    padding-left: 10%;
+  }
+
+  .profession p span:hover{
+    color: steelblue;
+    font-size: 25px;
+  }
+
+  .profession{
+    font-size: 20px;
+    font-family: 'Merriweather';
+    color: white;
+    margin: 9px;
+    padding-left: 10%;
+  }
+
+  .insights{
+    font-size: 15px;
+    font-family: 'Merriweather';
+    color: gray;
+    margin: 11px;
+    padding-left: 10%;
+    margin-bottom: 500px;
+  }
+
+  .portal{
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    top: 100px;
+    right: 0px;
+  }
+
+  @media screen and (max-width: 980px){
+    .portal{
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      top: 800px;
+    }
+  }
+
+  .portrait{
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    top: 850px;
+    right: 0px;
+    border-radius: 100%;
+  }
+
+  @media screen and (max-width: 980px){
+    .portrait{
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      top: -275px;
+    }
+  }
+
+  .me p{
+    font-size: 15px;
+    font-family: 'Calistoga';
+    color: grey;
+    margin: 10px;
+    padding-left: 10%;
+    text-transform: uppercase;
+  }
+
+  .story p span:hover{
+    font-size: 37px;
+    color: steelblue;
+  }
+
+  .story p{
+    font-size: 35px;
+    font-family: 'Calistoga';
+    color: white;
+    margin: 10px;
+    padding-left: 10%;
+    margin-bottom: 20px;
+  }
+
+  .text p{
+    font-size: 20px;
+    font-family: 'Calistoga';
+    color: grey;
+    overflow-wrap: break-word;
+    display: flex;
+    width: 50%;
+    padding-left: 10%;
+    margin-bottom: 90px;
+  }
+
+  .center-text{
+    font-size: 20px;
+    font-family: 'Calistoga';
+    color: grey;
+    overflow-wrap: break-word;
+    width: 50%;
+    padding-left: 10%;
+    margin-bottom: 90px;
+  }
+
+  .end-text p{
+    font-size: 20px;
+    font-family: 'Calistoga';
+    color: grey;
+    overflow-wrap: break-word;
+    width: 50%;
+    padding-left: 10%;
+    margin-bottom: 400px;
+  }
+
+  .featured p{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    color: grey;
+    padding-left: 10%;
+    text-transform: uppercase;
+  }
+
+  .portfolio p span:hover{
+    font-size: 37px;
+    color: steelblue;
+  }
+
+  .portfolio p{
+    font-size: 35px;
+    font-family: 'Ubuntu';
+    color: white;
+    padding-left: 10%;
+    margin-bottom: 550px;
+  }
+
+  .skill{
+    font-size: 15px;
+    font-family: 'Ubuntu';
+    color: grey;
+    padding-left: 10%;
+    text-transform: uppercase;
+  }
+
+  .chart p span:hover{
+    font-size: 37px;
+    color: steelblue;
+  }
+
+  .chart p{
+    font-size: 35px;
+    font-family: 'Ubuntu';
+    color: white;
+    padding-left: 10%;
+  }
+
+  .graph p{
+    top: 32px;
+    padding-left: 12%;
+    color: white;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; 
+  border-radius: 4px;
+  background-color: grey; 
+  margin-bottom: 25px;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 3px; 
+  padding-bottom: 3px; 
+  color: white;
+}
+
+.html {width: 90%;   border-radius: 4px; background-color: steelblue;}
+.css {width: 70%;   border-radius: 4px; background-color: steelblue;}
+.js {width: 40%;   border-radius: 4px; background-color: steelblue; margin-bottom: 300px;} 
+
+.media p span:hover{
+  font-size: 37px;
+  color: steelblue;
+}
+
+.media p{
+  font-size: 35px;
+  font-family: 'Abril Fatface';
+  color: white;
+  padding-left: 10%;
+}
+
+.social p{
+  font-size: 15px;
+  font-family: 'Abril Fatface';
+  color: grey;
+  padding-left: 10%;
+  text-transform: uppercase;
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+}
+.sm a {
+  color: grey;
+  margin: 0 35px;
+  font-size: 90px;
+  text-decoration: none;
+  margin-bottom: 325px;
+}
+.sm a:hover{
+  color: steelblue;
+}
+
+.message p{
+  font-size: 15px;
+  font-family: 'Abril Fatface';
+  color: grey;
+  padding-left: 10%;
+  text-transform: uppercase;
+}
+
+.mail p span:hover{
+  font-size: 37px;
+  color: steelblue;
+}
+
+.mail p{
+  font-size: 35px;
+  font-family: 'Abril Fatface';
+  color: white;
+  margin-bottom: 70px;
+  padding-left: 10%;
+}
+
+.email p{
+  font-size: 15px;
+  font-family: 'Abril Fatface';
+  color: grey;
+  padding-left: 10%;
+  text-transform: uppercase;
+}
+
+.email a{
+  font-size: 30px;
+  font-family: 'Abril Fatface';
+  color: white;
+  padding-left: 10%;
+  text-decoration: none;
+}
+
+.email a:hover{
+  color: steelblue;
+}
+
+.copyright p{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  text-transform: uppercase;
+  margin-top: 125px;
+  padding-left: 5%;
+}
+
+html{
+    scroll-behavior: auto
+}
